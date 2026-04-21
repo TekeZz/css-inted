@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}   
+
+@media (min-width: 600px) {
+    div {
+        background-color: red;
+        width:200px;
+        height:200px;
+    }
+}

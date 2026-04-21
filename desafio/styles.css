@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    /*dentro eu posso determinar o peso da fonte, ou seja, a grossura dela, nesse caso 400 é o peso normal, 700 é o negrito e 300 é o fino sem interferir nas demais propriedades, isto é determino o padrão.
+     quem não for usar o estilo voce pode especificar  */
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    
+}
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 100px;
+    margin-top: 10%;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(212, 121, 103, 0.664);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    ;
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 0px;
+    height: 70%;
+    width: 90%;
+    
+   
+
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 361px;
+}
+
+p {
+    font-size: 28px;
+    color: #5D5D7D;
+    line-height: 48px;
+    width: 440px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    box-shadow: 0px 10px 24px rgna (148, -153, -234, -0.0979959);
+
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+a {
+   font-family:  cursive;
+    font-size: 25px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-top: 51px;
+}
+
+header {
+   margin: 24px 0 0 57px;
+}
+
+@media  screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+
+    img {
+        position: static;
+        height: 100%;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 58px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px:
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
